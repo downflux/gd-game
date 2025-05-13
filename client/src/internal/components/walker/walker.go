@@ -3,9 +3,9 @@ package walker
 import (
 	"fmt"
 
-	"github.com/downflux/gd-game/internal/data/mover"
-	"github.com/downflux/gd-game/internal/fsm"
-	"github.com/downflux/gd-game/internal/fsm/walk"
+	"github.com/downflux/gd-game/client/internal/data/mover"
+	"github.com/downflux/gd-game/client/internal/fsm"
+	"github.com/downflux/gd-game/client/internal/fsm/walk"
 	"graphics.gd/classdb"
 	"graphics.gd/classdb/Node"
 	"graphics.gd/classdb/Tween"

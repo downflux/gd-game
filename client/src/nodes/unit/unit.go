@@ -3,10 +3,10 @@ package unit
 import (
 	"fmt"
 
-	"github.com/downflux/gd-game/internal/components/walker"
-	"github.com/downflux/gd-game/internal/data/mover"
-	"github.com/downflux/gd-game/internal/fsm/walk"
-	"github.com/downflux/gd-game/internal/geo"
+	"github.com/downflux/gd-game/client/internal/components/walker"
+	"github.com/downflux/gd-game/client/internal/data/mover"
+	"github.com/downflux/gd-game/client/internal/fsm/walk"
+	"github.com/downflux/gd-game/client/internal/geo"
 	"graphics.gd/classdb"
 	"graphics.gd/classdb/Node2D"
 	"graphics.gd/variant/Callable"
@@ -28,7 +28,8 @@ type N struct {
 	Debug    bool
 	Priority int
 
-	Team team.T
+	// TODO(minkezhang): Add team.
+	// Team team.T
 
 	// mover signifies that this unit is a ground / seaborne unit. This
 	// node does not animate flight.

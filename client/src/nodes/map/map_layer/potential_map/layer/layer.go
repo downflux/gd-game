@@ -7,7 +7,7 @@ package layer
 import (
 	"math"
 
-	"github.com/downflux/gd-game/internal/errors"
+	"github.com/downflux/gd-game/client/internal/errors"
 	"graphics.gd/variant/Rect2i"
 	"graphics.gd/variant/Vector2i"
 )

@@ -4,8 +4,8 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/downflux/gd-game/internal/geo"
-	"github.com/downflux/gd-game/nodes/enums/map_layer"
+	"github.com/downflux/gd-game/client/internal/geo"
+	"github.com/downflux/gd-game/client/nodes/enums/map_layer"
 	"graphics.gd/classdb"
 	"graphics.gd/classdb/AStarGrid2D"
 	"graphics.gd/classdb/Node"

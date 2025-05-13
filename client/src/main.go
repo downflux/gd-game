@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/downflux/gd-game/nodes/example"
-	"github.com/downflux/gd-game/nodes/pathfinder"
-	// "github.com/downflux/gd-game/nodes/map/map_layer/potential_map"
-	"github.com/downflux/gd-game/nodes/unit"
+	"github.com/downflux/gd-game/client/nodes/example"
+	"github.com/downflux/gd-game/client/nodes/pathfinder"
+	// "github.com/downflux/gd-game/client/nodes/map/map_layer/potential_map"
+	"github.com/downflux/gd-game/client/nodes/unit"
 	"graphics.gd/classdb"
 	"graphics.gd/startup"
 )

@@ -1,7 +1,7 @@
 package vtol
 
 import (
-	"github.com/downflux/gd-game/internal/fsm"
+	"github.com/downflux/gd-game/client/internal/fsm"
 )
 
 type S int

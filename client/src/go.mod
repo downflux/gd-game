@@ -1,4 +1,4 @@
-module github.com/downflux/gd-game
+module github.com/downflux/gd-game/client
 
 go 1.24.0
 

@@ -2,8 +2,8 @@
 package potential_map
 
 import (
-	"github.com/downflux/gd-game/internal/errors"
-	"github.com/downflux/gd-game/nodes/map/map_layer/potential_map/layer"
+	"github.com/downflux/gd-game/client/internal/errors"
+	"github.com/downflux/gd-game/client/nodes/map/map_layer/potential_map/layer"
 	"graphics.gd/classdb"
 	"graphics.gd/classdb/Node2D"
 	"graphics.gd/variant/Rect2i"
